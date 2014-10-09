@@ -1,0 +1,53 @@
+body {
+	background:gold;
+	font-family: 'Arvo', serif;
+	text-align: center;
+	padding:20px;
+}
+
+input[type='text'] {
+	width:350px;
+	border:0;
+	/*height:30px;*/
+	padding:10px;
+	border-radius:10px;
+	outline:none;
+	font-family: 'Arvo', serif;
+	display:block;
+	margin:0 auto;
+	font-size:2em;
+}
+
+.btn {
+	border:0;
+	color:white;
+	width:75px;
+	height:40px;	
+	padding:5px;
+	border-radius:10px;
+	outline:none;
+	font-family: 'Arvo', serif;
+	margin:20px auto;
+	display:inline-block;
+}
+
+.trash {
+	width:15px;
+	margin-left:10px;
+	visibility:hidden;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li:hover > .trash {
+	visibility:visible;
+}
+
+li {
+	margin-top:20px;
+}
+
+
+
