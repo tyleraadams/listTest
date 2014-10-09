@@ -77,38 +77,4 @@ list.submitButton.addEventListener('click', function(e) {
 	list.submitList();
 });
 
-// list.deleteButton.addEventListener('click', function(e){
-// 	e.preventDefault();
-// 	list.removeItem();
-// });
-
-// // list.submitButton.addEventListener('click', function(e){
-// // 	e.preventDefault();
-// // 	list.submitList();
-// })
-
-// var addButton = document.getElementById('add');
-
-// addButton.addEventListener('click', function(e) {
-// 	e.preventDefault();
-// 	document.querySelector('.field').value = '';
-// 	var node = document.createElement('li');
-// 	var textNode = document.createTextNode(listItem);
-// 	var deleteButton = document.createElement('img');
-// 	deleteButton.setAttribute('src', 'public/trash.png')
-// 	deleteButton.className = 'trash'
-
-// 	node.appendChild(textNode)
-// 	node.appendChild(deleteButton);
-// 	list.appendChild( node )
-
-// 	deleteButton.addEventListener('click', function(e){
-// 		// debugger
-// 		e.preventDefault();
-// 		list.removeChild(this.parentNode);
-// 	});
-// });
-
-
-
 
