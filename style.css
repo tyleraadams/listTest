@@ -14,7 +14,7 @@ form {
 	top: 20px;
 }
 
-input[type='text'] {
+.field {
 	width: 350px;
 	border: 0;
 	padding: 10px;
