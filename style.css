@@ -1,26 +1,35 @@
 body {
-	background:gold;
+	background:#443b75;
 	font-family: 'Arvo', serif;
 	text-align: center;
 	padding:20px;
 }
 
+body > h1 {
+	color:snow;
+}
+
+form {
+	position:relative;	
+	top: 20px;
+}
+
 input[type='text'] {
-	width:350px;
-	border:0;
-	/*height:30px;*/
-	padding:10px;
-	border-radius:10px;
-	outline:none;
+	width: 350px;
+	border: 0;
+	padding: 10px;
+	border-radius: 7px;
+	outline: none;
 	font-family: 'Arvo', serif;
 	display:block;
-	margin:0 auto;
-	font-size:2em;
+	margin: 0 auto;
+	font-size: 2em;
 }
+
 
 .btn {
 	border:0;
-	color:white;
+	color:snow;
 	width:75px;
 	height:40px;	
 	padding:5px;
@@ -31,15 +40,32 @@ input[type='text'] {
 	display:inline-block;
 }
 
+.btn:hover {
+	background:gold;
+}
+
 .trash {
 	width:15px;
 	margin-left:10px;
 	visibility:hidden;
 }
 
-ul{
+ul {
 	list-style-type: none;
+	text-align: left;
+	padding:0;
 }
+
+#list {
+	width: 20%;
+	height:250px;
+	background:snow;
+	overflow: auto;
+	padding:10px;
+	border-radius: 7px;
+	margin:0 auto;
+}
+
 
 li:hover > .trash {
 	visibility:visible;
@@ -47,6 +73,11 @@ li:hover > .trash {
 
 li {
 	margin-top:20px;
+}
+
+.console {
+	height:50px;
+	color:snow;
 }
 
 
